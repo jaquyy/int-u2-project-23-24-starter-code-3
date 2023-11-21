@@ -1,6 +1,6 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
-    padding: 128px 16px;
+  color: red;
+  padding: 128px 16px;
+  background-image: url( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSual6WK9SYVnwB9JF0iIgUljGHqgbQHLfLLQ&usqp=CAU");
 }
