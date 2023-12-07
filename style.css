@@ -1,6 +1,6 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-  color: red;
+  color: darkgrey;
   font-size: 18px;
   padding: 128px 16px;
   background-image: url("https://media.istockphoto.com/id/1406028297/photo/activists-protesting-for-gun-control.jpg?s=612x612&w=0&k=20&c=bFgA2X6AiFPF_CxIeU6eBS9nr05nUxb7t4RTRmiUBuI=");
@@ -9,47 +9,68 @@ header {
 
 
 body {
-  background-color: #F0E5BC;
-  color:#0008F0;
+  background-color: #F8E2F5;
+  color: #812273;
   font-size: 25px;
   font-weight: 35px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-  color: red;
-  background-color: #abc8f5;
+  color: black;
+  background-color: lightgray;
   text-align: center;
   font-size: 30px;
   border-style: dotted;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3 {
-  color: #2316b8;
-  background-color: #fc563d;
+  color: black;
+  background-color:lightgray;
   text-align: center;
   font-size: 30px;
-  border-style:dotted;
+  border-style: dotted;
 }
 
 h4 {
-  color: #fc563d;
-  background-color: #abc8f5;
+  color: black;
+  background-color: lightgray;
   text-align: center;
   font-size: 30px;
-  border-style:dotted;
+  border-style: dotted;
 }
 
 p {
   margin: 25px;
   padding: 25px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #1C5F2C;
   background-color: #a5a1d6;
   color: #2316b8;
 }
 
+img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .title {
   -webkit-text-stroke: 1px white;
-  
-  
+  background-color: black;
 }
+
+ol {
+  background: #75297F;
+  padding: 20px;
+}
+
+ol li {
+background: #D2D27F;
+color: deeppink;
+padding: 5px;
+margin-left: 35px;
